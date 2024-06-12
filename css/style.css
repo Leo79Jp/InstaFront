@@ -310,10 +310,27 @@ span{
         margin-inline: 1.56rem;
     }
     .foto_perfil_post{
-        width: 315px;
-        height: 315px;
+        width: 320px;
+        height: 320px;
     }
     .div_parrafos_post{
         padding-inline: 1.56rem;
     }
+}
+@media (max-width: 361px){
+    .container {  
+        margin-inline: 0.62rem;
+      }
+      .post { 
+        margin-inline: 0.62rem;
+    }
+    .history { 
+        margin-inline: 0;
+    }
+    .foto_perfil_post{
+        width: 300px;
+        height: 300px;
+    }
+
+
 }
